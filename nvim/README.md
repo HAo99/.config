@@ -58,7 +58,7 @@ Run `nvim`, and use command `:PlugInstall` to install plugins defined in this co
 
 | Shortcut      | Action                      |
 | ------------- | --------------------------- |
-| `<SPACE>` w   | Switch to next window       |
+| `<SPACE>` `w` | Switch to next window       |
 | `<SPACE>` `h` | Switch to the left window   |
 | `<SPACE>` `j` | Switch to the bottom window |
 | `<SPACE>` `k` | Switch to the top window    |
