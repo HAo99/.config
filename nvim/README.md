@@ -6,7 +6,7 @@ vim-plug is a minimalist vim plugin manager.
 
 There are 2 way to install vim-plug in linux.
 
-Download plug.vim and put it in the "autoload" directory
+[Download plug.vim](https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim) and put it in the "autoload" directory
 
 **Or** Execute the following commands:
 
@@ -25,4 +25,8 @@ curl -sL install-node.now.sh/lts | bash
 
 **Or** download from [offical website](https://nodejs.org), and install by yourself.
 
-### Step 3. 
+### Step 3. Install Plugins
+
+Run `nvim`, and use command `:PlugInstall` to install plugins defined in this config.
+
+
