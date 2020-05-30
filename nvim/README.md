@@ -1,8 +1,10 @@
+[中文版本](./README-CN.md)
+
 ## Installation
 
 ### Step 1. Install vim-plug
 
-vim-plug is a minimalist vim plugin manager.
+vim-plug is a minimalist vim plug-in manager.
 
 There are 2 way to install vim-plug in Linux.
 
@@ -17,7 +19,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 ### Step 2. Install node.js
 
-Use the offical script to install:
+Use the official script to install:
 
 ```bash
 curl -sL install-node.now.sh/lts | bash
@@ -33,9 +35,9 @@ If you are an Ubuntu distribution, use the following command:
 snap install universal-ctags
 ```
 
-### Step 4. Install Plugins
+### Step 4. Install Plug-ins
 
-Run `nvim`, and use command `:PlugInstall` to install plugins defined in this config.
+Run `nvim`, and use command `:PlugInstall` to install plug-ins defined in this config.
 
 ### Step 5. `:checkhealth`
 
@@ -45,28 +47,28 @@ Run `nvim`, and use command `:PlugInstall` to install plugins defined in this co
 
 | Shortcut | Action                               |
 | -------- | ------------------------------------ |
-| `H`      | Fast move left                       |
-| `J`      | Fast move down                       |
-| `K`      | Fast move up                         |
-| `L`      | Fast move right                      |
+| `H`      | Cursor move left quickly             |
+| `J`      | Cursor move down quickly             |
+| `K`      | Cursor move up quickly               |
+| `L`      | Cursor move right quickly            |
 | `<c-a>`  | Move to the first letter of the line |
 | `<c-e>`  | Move to the last letter of the line  |
 
 
 
-### Windows Switch
+### Screen Switch
 
 | Shortcut      | Action                      |
 | ------------- | --------------------------- |
-| `<SPACE>` `w` | Switch to next window       |
-| `<SPACE>` `h` | Switch to the left window   |
-| `<SPACE>` `j` | Switch to the bottom window |
-| `<SPACE>` `k` | Switch to the top window    |
-| `<SPACE>` `l` | Switch to the right window  |
+| `<SPACE>` `w` | Switch to next screen       |
+| `<SPACE>` `h` | Switch to the left screen   |
+| `<SPACE>` `j` | Switch to the bottom screen |
+| `<SPACE>` `k` | Switch to the top screen    |
+| `<SPACE>` `l` | Switch to the right screen  |
 
 
 
-### Windows Split
+### Screen Split
 
 | Shortcut | Action                                                       |
 | -------- | ------------------------------------------------------------ |
@@ -77,14 +79,14 @@ Run `nvim`, and use command `:PlugInstall` to install plugins defined in this co
 
 
 
-### Windows Resize
+### Screen Resize
 
 | Shortcut  | Action                         |
 | --------- | ------------------------------ |
-| `<UP>`    | Increase current window height |
-| `<DOWN>`  | Decrease current window height |
-| `<LEFT>`  | Increase current window width  |
-| `<RIGHT>` | Decrease current window width  |
+| `<UP>`    | Increase current screen height |
+| `<DOWN>`  | Decrease current screen height |
+| `<LEFT>`  | Increase current screen width  |
+| `<RIGHT>` | Decrease current screen width  |
 
 
 
